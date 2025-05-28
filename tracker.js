@@ -15,8 +15,8 @@ function renderExpenses() {
         li.innerHTML = `
             ${expense.amount} - ${expense.description} [${expense.category}]
             <div>
-                <button class="btn btn-sm btn-warning me-2" onclick="editExpense(${index})">Edit</button>
-                <button class="btn btn-sm btn-danger" onclick="deleteExpense(${index})">Delete</button>
+                <button class="btn btn-sm btn-warning me-2" onclick="editExpense(${index})">Edit Expense</button>
+                <button class="btn btn-sm btn-danger" onclick="deleteExpense(${index})">Delete Expense</button>
             </div>
         `;
         expenseList.appendChild(li);
